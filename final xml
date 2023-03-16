@@ -1,0 +1,650 @@
+<Sbsc xmlns="http://www.portal.com/InfranetXMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.portal.com/InfranetXMLSchema CMT_Subscribers.xsd">
+<SbscPrms>
+<PlObj>0.0.0.1 /plan 0 0</PlObj>
+</SbscPrms>
+<ActSbsc id="801079292">
+<Act>
+<ActNo>801079292</ActNo>
+<Curr>764</Curr>
+<SubSta>A</SubSta>
+<BType>B</BType>
+<Eff>2013-10-30T00:00:00</Eff>
+<CrtT>2013-10-30T00:00:00</CrtT>
+<SrvAACSrc>801079292</SrvAACSrc>
+<Locale>en_us</Locale>
+<ANArr elem="1">
+<Add>Thailand_801079292_CUST_ADDR</Add>
+<City>Bangkok</City>
+<CntTyp>CUST_ADDR</CntTyp>
+<Cnt>Thailand</Cnt>
+<FNm>Jyoshna</FNm>
+<MNm/>
+<LNm>Ir</LNm>
+<Stt>North_Thailand</Stt>
+<Tit>Mr</Tit>
+<Zip>65120</Zip>
+<APhArr elem="1">
+<Ph>543211</Ph>
+<PhTyp>H</PhTyp>
+</APhArr>
+<APhArr elem="2">
+<Ph>543212</Ph>
+<PhTyp>H</PhTyp>
+</APhArr>
+</ANArr>
+<ANArr elem="2">
+<Add>Thailand_801079292_BILL_ADDR</Add>
+<City>Bangkok1</City>
+<CntTyp>BILL_ADDR</CntTyp>
+<Cnt>Thailand</Cnt>
+<FNm>Jyoshna</FNm>
+<MNm/>
+<LNm>Ir</LNm>
+<Stt>North_Thailand</Stt>
+<Tit>Mr</Tit>
+<Zip>65120</Zip>
+<APhArr elem="1">
+<Ph>123451</Ph>
+<PhTyp>W</PhTyp>
+</APhArr>
+<APhArr elem="2">
+<Ph>123452</Ph>
+<PhTyp>W</PhTyp>
+</APhArr>
+</ANArr>
+</Act>
+<ActProm id="801079292" type="/profile/customer_details" global="true">
+<PrmNm>SPECIAL_DAY</PrmNm>
+<Eff>2013-10-30T00:00:00</Eff>
+<CrtT>2013-10-30T00:00:00</CrtT>
+<myExtension>
+<myArray table="profile_nth_customer_details_t" elem="1">
+<FldACTIVE_DATE type="date">2022-08-26T16:40:19</FldACTIVE_DATE>
+<FldBILLING_GROUP type="string">2041</FldBILLING_GROUP>
+<FldBILL_COUNTY type="string">TEST_BILL_COUNTY</FldBILL_COUNTY>
+<FldDISPATCH_METHOD type="INTEGER">1</FldDISPATCH_METHOD>
+<FldBILL_FMT_OPT type="INTEGER">1</FldBILL_FMT_OPT>
+<FldBILL_PERIOD type="string">M01</FldBILL_PERIOD>
+<FldEMPLOYEE_ID type="string"/>
+<FldEXTERNAL_ID type="string">801079292</FldEXTERNAL_ID>
+<FldEXTERNAL_ID_TYPE type="string">1</FldEXTERNAL_ID_TYPE>
+<FldVAT_TYPE type="INTEGER">1</FldVAT_TYPE>
+<FldLANGUAGE_CODE type="INTEGER">12</FldLANGUAGE_CODE>
+<FldNATIONALITY type="string"/>
+<FldBILLABLE type="INTEGER">0</FldBILLABLE>
+<FldPARENT_ID type="string"/>
+<FldRATE_CLASS type="INTEGER">1</FldRATE_CLASS>
+<FldREGISTER_TYPE type="string"/>
+<FldSALES_CENTER_ID type="string">4000</FldSALES_CENTER_ID>
+<FldSALES_ORDER type="string"/>
+<FldTAX_REG_NUMBER type="INTEGER">12394000479026</FldTAX_REG_NUMBER>
+<FldVAT_COUNTY type="string">TEST_VAT_COUNTY</FldVAT_COUNTY>
+<FldVIP_CODE type="string">0</FldVIP_CODE>
+<FldCREDIT_LIMIT type="INTEGER"/>
+<FldEMAIL_ADDRESS type="string"/>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="1">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DLastName</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="26">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DeliVatAddrKhetAmphur</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="25">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DeliVatAddrLine1</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="24">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DeliVatFirstName</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="23">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DCity</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="22">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DAddress1</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="21">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DeliVatAddrLine3</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="20">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DeliVatLastName</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="19">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DCounty</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="18">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DFirstName</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="17">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DeliVatAddrCountryLkp</FldPARAM_NAME>
+<FldPARAM_VALUE type="string">TH</FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="16">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DeliVatAddrProvinceLkp</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="15">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DeliVatCompName</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="14">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DCountry</FldPARAM_NAME>
+<FldPARAM_VALUE type="string">764</FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="13">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DState</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="12">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DeliVatAddrLine4</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="11">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">VatDisplay</FldPARAM_NAME>
+<FldPARAM_VALUE type="string">1</FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="10">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DAddress2</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="9">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DCompanyName</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="8">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DTitle</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="7">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DZipCode</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="6">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DAddress3</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="5">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DeliVatAddrPostCode</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="4">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DeliVatAddrLine2</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="3">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DeliVatThaiTitleLkp</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="2">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">BillDisplay</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_svc_centers_t" elem="1">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldSVC_CENTER_ADDRESS type="string"/>
+<FldSVC_CENTER_ID type="string">3064</FldSVC_CENTER_ID>
+<FldSVC_CENTER_NAME type="string">4</FldSVC_CENTER_NAME>
+</myArray>
+</myExtension>
+</ActProm>
+</ActSbsc>
+<ActSbsc id="800484377">
+<Act>
+<ActNo>800484377</ActNo>
+<Curr>764</Curr>
+<SubSta>A</SubSta>
+<BType>C</BType>
+<Eff>2011-04-03T00:00:00</Eff>
+<CrtT>2011-04-03T00:00:00</CrtT>
+<SrvAACSrc>800484377</SrvAACSrc>
+<Locale>en_us</Locale>
+<ANArr elem="1">
+<Add>Thailand_800484377_CUST_ADDR</Add>
+<City>Bangkok</City>
+<CntTyp>CUST_ADDR</CntTyp>
+<Cnt>Thailand</Cnt>
+<FNm>Noble</FNm>
+<MNm/>
+<LNm>Ramasamy</LNm>
+<Stt>North_Thailand</Stt>
+<Tit>Mr</Tit>
+<Zip>90110</Zip>
+<APhArr elem="1">
+<Ph>543213</Ph>
+<PhTyp>H</PhTyp>
+</APhArr>
+<APhArr elem="2">
+<Ph>543214</Ph>
+<PhTyp>H</PhTyp>
+</APhArr>
+</ANArr>
+<ANArr elem="2">
+<Add>Thailand_800484377_BILL_ADDR</Add>
+<City>Bangkok1</City>
+<CntTyp>BILL_ADDR</CntTyp>
+<Cnt>Thailand</Cnt>
+<FNm>Noble</FNm>
+<MNm/>
+<LNm>Ramasamy</LNm>
+<Stt>North_Thailand</Stt>
+<Tit>Mr</Tit>
+<Zip>90110</Zip>
+<APhArr elem="1">
+<Ph>123453</Ph>
+<PhTyp>W</PhTyp>
+</APhArr>
+<APhArr elem="2">
+<Ph>123454</Ph>
+<PhTyp>W</PhTyp>
+</APhArr>
+</ANArr>
+</Act>
+<ActProm id="800484377" type="/profile/customer_details" global="true">
+<PrmNm>SPECIAL_DAY</PrmNm>
+<Eff>2011-04-03T00:00:00</Eff>
+<CrtT>2011-04-03T00:00:00</CrtT>
+<myExtension>
+<myArray table="profile_nth_customer_details_t" elem="1">
+<FldACTIVE_DATE type="date">2022-08-26T16:40:19</FldACTIVE_DATE>
+<FldBILLING_GROUP type="string">1103</FldBILLING_GROUP>
+<FldBILL_COUNTY type="string">TEST_BILL_COUNTY</FldBILL_COUNTY>
+<FldDISPATCH_METHOD type="INTEGER">2</FldDISPATCH_METHOD>
+<FldBILL_FMT_OPT type="INTEGER">1</FldBILL_FMT_OPT>
+<FldBILL_PERIOD type="string">M01</FldBILL_PERIOD>
+<FldEMPLOYEE_ID type="string">264914</FldEMPLOYEE_ID>
+<FldEXTERNAL_ID type="string">800484377</FldEXTERNAL_ID>
+<FldEXTERNAL_ID_TYPE type="string">1</FldEXTERNAL_ID_TYPE>
+<FldVAT_TYPE type="INTEGER">1</FldVAT_TYPE>
+<FldLANGUAGE_CODE type="INTEGER">12</FldLANGUAGE_CODE>
+<FldNATIONALITY type="string">TH</FldNATIONALITY>
+<FldBILLABLE type="INTEGER">0</FldBILLABLE>
+<FldPARENT_ID type="string"/>
+<FldRATE_CLASS type="INTEGER">1</FldRATE_CLASS>
+<FldREGISTER_TYPE type="string"/>
+<FldSALES_CENTER_ID type="string">5000</FldSALES_CENTER_ID>
+<FldSALES_ORDER type="string"/>
+<FldTAX_REG_NUMBER type="INTEGER">12359800175179</FldTAX_REG_NUMBER>
+<FldVAT_COUNTY type="string">TEST_VAT_COUNTY</FldVAT_COUNTY>
+<FldVIP_CODE type="string">4</FldVIP_CODE>
+<FldCREDIT_LIMIT type="INTEGER"/>
+<FldEMAIL_ADDRESS type="string">eeeetima.k@cattelecom.com</FldEMAIL_ADDRESS>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="1">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DCounty</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="13">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DLastName</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="12">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DAddress2</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="11">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">VatDisplay</FldPARAM_NAME>
+<FldPARAM_VALUE type="string">1</FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="10">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DZipCode</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="9">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DAddress3</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="8">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DState</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="7">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DCity</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="6">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DAddress1</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="5">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DCompanyName</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="4">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DFirstName</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="3">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DTitle</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="2">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DCountry</FldPARAM_NAME>
+<FldPARAM_VALUE type="string">764</FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_svc_centers_t" elem="1">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldSVC_CENTER_ADDRESS type="string"/>
+<FldSVC_CENTER_ID type="string">3085</FldSVC_CENTER_ID>
+<FldSVC_CENTER_NAME type="string">4</FldSVC_CENTER_NAME>
+</myArray>
+</myExtension>
+</ActProm>
+</ActSbsc>
+<ActSbsc id="700850405">
+<Act>
+<ActNo>700850405</ActNo>
+<Curr>764</Curr>
+<SubSta>A</SubSta>
+<BType>B</BType>
+<Eff>2022-06-24T00:00:00</Eff>
+<CrtT>2022-06-24T00:00:00</CrtT>
+<SrvAACSrc>700850405</SrvAACSrc>
+<Locale>en_us</Locale>
+<ANArr elem="1">
+<Add>Thailand_700850405_CUST_ADDR</Add>
+<City>Bangkok</City>
+<CntTyp>CUST_ADDR</CntTyp>
+<Cnt>Thailand</Cnt>
+<FNm>Rita</FNm>
+<MNm/>
+<LNm>Kumari</LNm>
+<Stt>South_Thailand</Stt>
+<Tit>Miss</Tit>
+<Zip>90100</Zip>
+<APhArr elem="1">
+<Ph>543215</Ph>
+<PhTyp>H</PhTyp>
+</APhArr>
+<APhArr elem="2">
+<Ph>543216</Ph>
+<PhTyp>H</PhTyp>
+</APhArr>
+</ANArr>
+<ANArr elem="2">
+<Add>Thailand_700850405_BILL_ADDR</Add>
+<City>Bangkok</City>
+<CntTyp>BILL_ADDR</CntTyp>
+<Cnt>Thailand</Cnt>
+<FNm>Rita</FNm>
+<MNm/>
+<LNm>Kumari</LNm>
+<Stt>South_Thailand</Stt>
+<Tit>Miss</Tit>
+<Zip>90100</Zip>
+<APhArr elem="1">
+<Ph>123455</Ph>
+<PhTyp>W</PhTyp>
+</APhArr>
+<APhArr elem="2">
+<Ph>123456</Ph>
+<PhTyp>W</PhTyp>
+</APhArr>
+</ANArr>
+</Act>
+<ActProm id="700850405" type="/profile/customer_details" global="true">
+<PrmNm>SPECIAL_DAY</PrmNm>
+<Eff>2022-06-24T00:00:00</Eff>
+<CrtT>2022-06-24T00:00:00</CrtT>
+<myExtension>
+<myArray table="profile_nth_customer_details_t" elem="1">
+<FldACTIVE_DATE type="date">2022-08-26T16:40:19</FldACTIVE_DATE>
+<FldBILLING_GROUP type="string">3089</FldBILLING_GROUP>
+<FldBILL_COUNTY type="string">TEST_BILL_COUNTY</FldBILL_COUNTY>
+<FldDISPATCH_METHOD type="INTEGER">1</FldDISPATCH_METHOD>
+<FldBILL_FMT_OPT type="INTEGER">1</FldBILL_FMT_OPT>
+<FldBILL_PERIOD type="string">MA1</FldBILL_PERIOD>
+<FldEMPLOYEE_ID type="string"/>
+<FldEXTERNAL_ID type="string">700850405</FldEXTERNAL_ID>
+<FldEXTERNAL_ID_TYPE type="string">1</FldEXTERNAL_ID_TYPE>
+<FldVAT_TYPE type="INTEGER">1</FldVAT_TYPE>
+<FldLANGUAGE_CODE type="INTEGER">12</FldLANGUAGE_CODE>
+<FldNATIONALITY type="string">TH</FldNATIONALITY>
+<FldBILLABLE type="INTEGER">0</FldBILLABLE>
+<FldPARENT_ID type="string"/>
+<FldRATE_CLASS type="INTEGER">1</FldRATE_CLASS>
+<FldREGISTER_TYPE type="string"/>
+<FldSALES_CENTER_ID type="string">5000</FldSALES_CENTER_ID>
+<FldSALES_ORDER type="string"/>
+<FldTAX_REG_NUMBER type="INTEGER">12309800182446</FldTAX_REG_NUMBER>
+<FldVAT_COUNTY type="string">TEST_VAT_COUNTY</FldVAT_COUNTY>
+<FldVIP_CODE type="string">0</FldVIP_CODE>
+<FldCREDIT_LIMIT type="INTEGER">0</FldCREDIT_LIMIT>
+<FldEMAIL_ADDRESS type="string"/>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="1">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DAddress1</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="36">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">SalesTerritory</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="35">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">InternalSalesRef</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="34">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DeliVatAddrCountryLkp</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="33">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DeliVatAddrLine3</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="32">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DAddress3</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="31">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">ACCUMULATED_CHARGE</FldPARAM_NAME>
+<FldPARAM_VALUE type="string">0</FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="30">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DeliVatLastName</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="29">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DeliVatThaiTitleLkp</FldPARAM_NAME>
+<FldPARAM_VALUE type="string">???</FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="28">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DTitle</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="27">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">RcptDispMeth</FldPARAM_NAME>
+<FldPARAM_VALUE type="string">1</FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="26">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">Bill Period SVC ACT_DT</FldPARAM_NAME>
+<FldPARAM_VALUE type="string">0</FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="25">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">PPM_NUMBER</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="24">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">eGP_Contact</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="23">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DZipCode</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="22">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DeliVatAddrLine4</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="21">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DCountry</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="20">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DState</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="19">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DCity</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="18">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">eGP_StartDate</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="17">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DeliVatAddrProvinceLkp</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="16">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">VatDisplay</FldPARAM_NAME>
+<FldPARAM_VALUE type="string">1</FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="15">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DCounty</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="14">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DeliVatAddrKhetAmphur</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="13">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DCompanyName</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="12">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DFirstName</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="11">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">eGP_EndDate</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="10">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">SalesName</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="9">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DeliVatAddrPostCode</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="8">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DeliVatAddrLine2</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="7">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DeliVatFirstName</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="6">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DLastName</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="5">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">eGP_Value</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="4">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DeliVatAddrLine1</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="3">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DeliVatCompName</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_ext_data_t" elem="2">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldPARAM_NAME type="string">DAddress2</FldPARAM_NAME>
+<FldPARAM_VALUE type="string"> </FldPARAM_VALUE>
+</myArray>
+<myArray table="profile_nth_cust_svc_centers_t" elem="1">
+<FldOBJ_ID0 type="INTEGER"/>
+<FldSVC_CENTER_ADDRESS type="string"/>
+<FldSVC_CENTER_ID type="string">3085</FldSVC_CENTER_ID>
+<FldSVC_CENTER_NAME type="string">4</FldSVC_CENTER_NAME>
+</myArray>
+</myExtension>
+</ActProm>
+</ActSbsc>
+</Sbsc>
